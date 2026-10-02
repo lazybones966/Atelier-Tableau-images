@@ -1,0 +1,13 @@
+table,td{border-style: solid ;
+    border-radius: 2px;
+    width: 30%;
+    border-color: red;
+
+}
+#td1{background-color: yellow;}
+#tb{
+    border-spacing: 15px;
+}
+.p{
+    padding: 5px;
+}

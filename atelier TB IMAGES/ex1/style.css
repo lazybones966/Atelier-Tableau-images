@@ -1,0 +1,25 @@
+            /* ===== Question 3 =====
+               table, th, td : ces styles s'appliquent au tableau ET à toutes ses cellules.
+               border: 1px solid black  -> bordure de 1px, trait continu, couleur noire.
+               border-collapse: collapse -> fusionne les bordures voisines en un seul trait.
+               Effet : le tableau devient visible avec des lignes fines et nettes entre
+               les cellules. Sans "collapse", chaque cellule aurait sa propre bordure
+               et on verrait un double trait . */
+            table, th, td {
+               border: 1px solid black;
+               border-collapse: collapse;
+            }
+
+            /* ===== Question 4 =====
+               (décommenter une seule ligne à la fois pour tester)
+
+               border: 1px dotted red;
+               -> bordure en pointilles rouge, 1px d'épaisseur.
+
+               border: 2px dashed blue;
+               -> bordure en tirets  , bleue, 2px d'épaisseur.
+
+               border: 2px hidden green;
+               -> bordure cachée : rien ne s'affiche 
+                  Avec border-collapse: collapse,
+                  "hidden" a même priorité sur les autres bordures voisines */

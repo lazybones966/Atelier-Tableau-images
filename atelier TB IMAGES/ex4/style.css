@@ -1,0 +1,5 @@
+caption{text-decoration: underline;}
+table,tr,td{
+    border-collapse: collapse;
+    border-style: solid;
+}
